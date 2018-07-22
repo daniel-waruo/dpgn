@@ -12,6 +12,7 @@ services:
       - web
     links:
       - web:web
+
   web:
     build: .
     container_name: django01
